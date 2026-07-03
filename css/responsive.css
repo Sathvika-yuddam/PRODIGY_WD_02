@@ -1,0 +1,102 @@
+/* ==========================
+   TABLETS
+========================== */
+
+@media (max-width:768px){
+
+    .stopwatch-card{
+
+        max-width:450px;
+        padding:30px;
+
+    }
+
+    .display{
+
+        font-size:2.5rem;
+
+    }
+
+    .buttons{
+
+        gap:12px;
+
+    }
+
+}
+
+
+/* ==========================
+   MOBILE
+========================== */
+
+@media (max-width:576px){
+
+    .stopwatch-card{
+
+        padding:25px 20px;
+
+    }
+
+    .stopwatch-card h1{
+
+        font-size:1.8rem;
+
+    }
+
+    .subtitle{
+
+        font-size:0.9rem;
+
+    }
+
+    .display{
+
+        font-size:2rem;
+
+        padding:18px;
+
+    }
+
+    .buttons{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .buttons button{
+
+        width:100%;
+
+    }
+
+    #lapList li{
+
+        font-size:0.95rem;
+
+        padding:10px;
+
+    }
+
+}
+
+
+/* ==========================
+   SMALL DEVICES
+========================== */
+
+@media (max-width:350px){
+
+    .display{
+
+        font-size:1.5rem;
+
+    }
+
+    .stopwatch-card{
+
+        padding:18px;
+
+    }
+
+}
