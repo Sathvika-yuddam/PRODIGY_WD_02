@@ -19,13 +19,13 @@ A responsive stopwatch application created using HTML, CSS, and JavaScript.
 - JavaScript
 
 ## Project Structure
-
+```
 Stopwatch/
 │
 ├── index.html
 ├── style.css
 ├── script.js
-
+```
 ## Learning
 
 - setInterval()
